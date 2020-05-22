@@ -8,7 +8,7 @@ We try to keep this boilerplate as fresh as possible, but things are always chan
 *This boilerplate is unofficial, it's not built by Statamic, it's built by [Double Three Digital](https://doublethree.digital).*
 
 ## Documentation
-There's some documentation about the boilerplate [over here](./DOCUMENTATION.md).
+[Read](./DOCUMENTATION.md) this addon's documentation.
 
 ## Resources
 * [Statamic 3 Docs](https://statamic.dev)
