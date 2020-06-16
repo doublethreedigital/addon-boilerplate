@@ -1,6 +1,5 @@
 {
     "name": "doublethreedigital/addon-boilerplate",
-    "type": "statamic-addon",
     "description": "A Statamic 3 addon boilerplate, ready for testing.",
     "license": "proprietary",
     "autoload": {
