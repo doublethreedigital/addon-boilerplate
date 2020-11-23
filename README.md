@@ -1,6 +1,8 @@
 # Addon Boilerplate
 > Boilerplate for building testable Statamic 3 addons
 
+**This boilerplate hasn't been updated recently, so we'd probably not recommend using it until we get round to updating it. Until then, we recommend creating your addons with [Fabric](https://github.com/steadfast-collective/fabric).**
+
 This repository contains some boilerplate code to help you build testable Statamic 3 addons. Simply clone the repo, change the namespace references and get stuck in!
 
 We try to keep this boilerplate as fresh as possible, but things are always changing, especially while Statamic is in beta. If you spot something that needs to be updated, fork and make a pull request!
