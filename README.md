@@ -33,7 +33,7 @@ Here's a breif list of strings that you'll need to swap out with your own.
 
 ## Security
 
-From a security perspective, all versions from v2.0 upwards will receive a security release if a vulnerability is found.
+From a security perspective, only the latest version will receive a security release if a vulnerability is found.
 
 If you discover a security vulnerability within :addonName, please report it [via email](mailto::vendorEmail) straight away. Please don't report security issues in the issue tracker.
 
