@@ -41,7 +41,7 @@ If you discover a security vulnerability within Simple Commerce, please report i
 
 * [**Issue Tracker**](https://github.com/:vendorName/:addonName/issues): Find & report bugs in Simple Commerce
 * [**Discussions**](https://github.com/:vendorName/:addonName/discussions): Get help and put forward feature requests
-* [**Email**](mailto::vendorEmail): Support from the developer behind the add
+* [**Email**](mailto::vendorEmail): Support from the developer behind the addon
 
 ---
 
