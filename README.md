@@ -35,11 +35,11 @@ Here's a breif list of strings that you'll need to swap out with your own.
 
 From a security perspective, all versions from v2.0 upwards will receive a security release if a vulnerability is found.
 
-If you discover a security vulnerability within Simple Commerce, please report it [via email](mailto::vendorEmail) straight away. Please don't report security issues in the issue tracker.
+If you discover a security vulnerability within :addonName, please report it [via email](mailto::vendorEmail) straight away. Please don't report security issues in the issue tracker.
 
 ## Resources
 
-* [**Issue Tracker**](https://github.com/:vendorName/:addonName/issues): Find & report bugs in Simple Commerce
+* [**Issue Tracker**](https://github.com/:vendorName/:addonName/issues): Find & report bugs in :addonName
 * [**Discussions**](https://github.com/:vendorName/:addonName/discussions): Get help and put forward feature requests
 * [**Email**](mailto::vendorEmail): Support from the developer behind the addon
 
@@ -47,5 +47,5 @@ If you discover a security vulnerability within Simple Commerce, please report i
 
 <p>
 <a href="https://statamic.com"><img src="https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge" alt="Compatible with Statamic v3"></a>
-<a href="https://packagist.org/packages/doublethreedigital/addon-boilerplate/stats"><img src="https://img.shields.io/packagist/v/doublethreedigital/addon-boilerplate?style=for-the-badge" alt="Simple Commerce on Packagist"></a>
+<a href="https://packagist.org/packages/:vendorName/:addonName/stats"><img src="https://img.shields.io/packagist/v/:vendorName/:addonName?style=for-the-badge" alt=":addonName on Packagist"></a>
 </p>
