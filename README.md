@@ -2,8 +2,6 @@
 
 ## Addon Boilerplate
 
-**Note:** Replace the following strings with find and replace: `:vendorName`, `:addonName`, `:vendorEmail`, `:marketplaceSlug`.
-
 This repository contains the source code for :addonName. :addonName is a commercial addon, to use it in production, you'll need to [purchase a license](https://statamic.com/:marketplaceSlug).
 
 ## Installation
@@ -23,9 +21,15 @@ return [
 ];
 ```
 
-### Usage
+### Replacing everything
 
-And you're gonna have to write this yourself...
+Here's a breif list of strings that you'll need to swap out with your own.
+
+* `:vendorName`
+* `:packageName`
+* `:marketplaceSlug`
+* `doublethreedigital`
+* `addon-boilerplate`
 
 ## Security
 
