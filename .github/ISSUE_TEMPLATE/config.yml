@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 'Help'
+    url: mailto:hello@doublethree.digital
+    about: 'Get in touch, with the developer behind the addon.'

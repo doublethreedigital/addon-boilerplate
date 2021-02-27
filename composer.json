@@ -1,6 +1,6 @@
 {
     "name": "doublethreedigital/addon-boilerplate",
-    "description": "A Statamic 3 addon boilerplate, ready for testing.",
+    "description": "Addon Boilerplate for Statamic v3",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
@@ -15,7 +15,7 @@
     "extra": {
         "statamic": {
             "name": "Addon Boilerplate",
-            "description": "A Statamic 3 addon boilerplate, ready for testing."
+            "description": "Addon Boilerplate for Statamic v3"
         },
         "laravel": {
             "providers": [
@@ -24,19 +24,19 @@
         }
     },
     "require": {
-        "statamic/cms": "3.0.*"
+        "php": "^7.4 || ^8.0",
+        "statamic/cms": "3.0.* || 3.1.*"
     },
     "require-dev": {
         "nunomaduro/collision": "^4.2",
-        "orchestra/testbench": "^5.0"
+        "orchestra/testbench": "^4.0|^5.0|^6.0"
     },
-    "minimum-stability": "dev",
     "scripts": {
         "lint": [
             "php-cs-fixer fix ./src"
         ],
         "test": [
-            "./vendor/bin/phpunit"
+            "php -d memory_limit=-1 -d max_execution_time=0 ./vendor/bin/phpunit"
         ]
     },
     "config": {

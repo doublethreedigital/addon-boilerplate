@@ -1,21 +1,45 @@
-# Addon Boilerplate
-> Boilerplate for building testable Statamic 3 addons
+![Banner](https://raw.githubusercontent.com/doublethreedigital/addon-boilerplate/master/banner.png)
 
-**This boilerplate hasn't been updated recently, so we'd probably not recommend using it until we get round to updating it. Until then, we recommend creating your addons with [Fabric](https://github.com/steadfast-collective/fabric).**
+## Addon Boilerplate
 
-This repository contains some boilerplate code to help you build testable Statamic 3 addons. Simply clone the repo, change the namespace references and get stuck in!
+**Note:** Replace the following strings with find and replace: `:vendorName`, `:addonName`, `:vendorEmail`, `:marketplaceSlug`.
 
-We try to keep this boilerplate as fresh as possible, but things are always changing, especially while Statamic is in beta. If you spot something that needs to be updated, fork and make a pull request!
+This repository contains the source code for :addonName. :addonName is a commercial addon, to use it in production, you'll need to [purchase a license](https://statamic.com/:marketplaceSlug).
 
-*This boilerplate is unofficial, it's not built by Statamic, it's built by [Double Three Digital](https://doublethree.digital).*
+## Installation
+
+1. Install via Composer `composer require :vendorName/:packageName`
+2. Publish configuration, assets etc `php artisan vendor:publish --provider=":vendorName/:addonName"`
 
 ## Documentation
-[Read](./DOCUMENTATION.md) this addon's documentation.
+
+### Configuration
+
+This addon provides its own configuration file. You can use this to configure the API keys and other options.
+
+```php
+return [
+    //
+];
+```
+
+### Usage
+
+And you're gonna have to write this yourself...
+
+## Security
+
+From a security perspective, all versions from v2.0 upwards will receive a security release if a vulnerability is found.
+
+If you discover a security vulnerability within Simple Commerce, please report it [via email](mailto::vendorEmail) straight away. Please don't report security issues in the issue tracker.
 
 ## Resources
-* [Statamic 3 Docs](https://statamic.dev)
-* [Statamic Discord](https://statamic.com/discord)
-* [Simple Commerce (a big addon that does a lot of common things)](https://github.com/doublethreedigital/simple-commerce)
+
+* [**Issue Tracker**](https://github.com/:vendorName/:addonName/issues): Find & report bugs in Simple Commerce
+* [**Discussions**](https://github.com/:vendorName/:addonName/discussions): Get help and put forward feature requests
+* [**Email**](mailto::vendorEmail): Support from the developer behind the add
+
+---
 
 <p>
 <a href="https://statamic.com"><img src="https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge" alt="Compatible with Statamic v3"></a>
