@@ -4,8 +4,6 @@
 
 This repository contains the source code for :addonName. :addonName is a commercial addon, to use it in production, you'll need to [purchase a license](https://statamic.com/:marketplaceSlug).
 
-While :addonName itself is free and doesn't require a license, you can [optionally donate to Duncan](https://duncanm.dev/donate), the developer behind it to show your appreciation.
-
 ## Installation
 
 1. Install via Composer `composer require :vendorName/:packageName`
