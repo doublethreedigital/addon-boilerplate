@@ -23,4 +23,4 @@ If you can, please provide a screenshot of the issue or a link to the Flare exce
 
 ## Environment
 
-Copy the output of `php please support:details` into here. Also, please provide the URL to the feed you're importing from.
+Copy the output of `php please support:details` into here.
