@@ -52,7 +52,7 @@ ADDON_PACKAGE_NAME='simple-commerce'
 # Find & Replace (loop through all files, and find and replace wildcards)
 for FILE_PATH in $FILE_PATHS; do
     echo $FILE_PATH
-    FILE_CONTENT="$(cat $FILE_PATH)"
+    FILE_CONTENT=$(cat $FILE_PATH)
 
     # Replace any wildcards in FILE_CONTENT
     FILE_CONTENT=${FILE_CONTENT//vendor-name/$VENDOR_NAME}
@@ -64,16 +64,16 @@ for FILE_PATH in $FILE_PATHS; do
     FILE_CONTENT=${FILE_CONTENT//addon-description/$ADDON_DESCRIPTION}
 
     # Write back to file
-    echo $FILE_CONTENT > $FILE_PATH
+    echo "$FILE_CONTENT" > $FILE_PATH
 done
 
 # Tidy up (move Readme, get rid of script)
-# rm README.md
-# mv README.new.md README.md
+rm README.md
+mv README.new.md README.md
 
-# rm boilerplate.sh
+rm boilerplate.sh
 
-# rm -rf .git
-# git init
-# git add .
-# git commit -m "Initial commit"
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
