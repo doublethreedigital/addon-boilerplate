@@ -1,6 +1,6 @@
 <?php
 
-namespace DoubleThreeDigital\AddonBoilerplate\Tests;
+namespace DummyVendorNamespace\DummyAddonNamespace\Tests;
 
 class ExampleTest extends TestCase
 {
