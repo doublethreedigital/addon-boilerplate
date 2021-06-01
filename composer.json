@@ -1,25 +1,25 @@
 {
-    "name": "doublethreedigital/addon-boilerplate",
-    "description": "Addon Boilerplate for Statamic v3",
+    "name": "composer-name",
+    "description": "addon-description",
     "license": "proprietary",
     "autoload": {
         "psr-4": {
-            "DoubleThreeDigital\\AddonBoilerplate\\": "src"
+            "DummyVendorNamespace\\DummyAddonNamespace\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DoubleThreeDigital\\AddonBoilerplate\\Tests\\": "tests"
+            "DummyVendorNamespace\\DummyAddonNamespace\\Tests\\": "tests"
         }
     },
     "extra": {
         "statamic": {
-            "name": "Addon Boilerplate",
-            "description": "Addon Boilerplate for Statamic v3"
+            "name": "addon-name",
+            "description": "addon-description"
         },
         "laravel": {
             "providers": [
-                "DoubleThreeDigital\\AddonBoilerplate\\ServiceProvider"
+                "DummyVendorNamespace\\DummyAddonNamespace\\ServiceProvider"
             ]
         }
     },

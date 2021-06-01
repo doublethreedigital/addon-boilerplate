@@ -1,6 +1,6 @@
 <?php
 
-namespace DoubleThreeDigital\AddonBoilerplate;
+namespace DummyVendorNamespace\DummyAddonNamespace;
 
 use Statamic\Providers\AddonServiceProvider;
 

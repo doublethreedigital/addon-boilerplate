@@ -1,10 +1,10 @@
 <?php
 
-namespace DoubleThreeDigital\AddonBoilerplate\Tests;
+namespace DummyVendorNamespace\DummyAddonNamespace\Tests;
 
 use Statamic\Extend\Manifest;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
-use DoubleThreeDigital\AddonBoilerplate\ServiceProvider;
+use DummyVendorNamespace\DummyAddonNamespace\ServiceProvider;
 use Statamic\Providers\StatamicServiceProvider;
 use Statamic\Statamic;
 
@@ -30,9 +30,9 @@ abstract class TestCase extends OrchestraTestCase
         parent::getEnvironmentSetUp($app);
 
         $app->make(Manifest::class)->manifest = [
-            'doublethreedigital/addon-boilerplate' => [
-                'id' => 'doublethreedigital/addon-boilerplate',
-                'namespace' => 'DoubleThreeDigital\\AddonBoilerplate\\',
+            'composer-name' => [
+                'id' => 'composer-name',
+                'namespace' => 'DummyVendorNamespace\\DummyAddonNamespace\\',
             ],
         ];
     }
