@@ -39,4 +39,4 @@ If you discover a security vulnerability within addon-name, please report it [vi
 <a href="https://packagist.org/packages/composer-name/stats"><img src="https://img.shields.io/packagist/v/composer-name?style=for-the-badge" alt=":addonName on Packagist"></a>
 </p>
 
-[Generated using `doublethreedigital/addon-boilerplate`](https://github.com/doublethreedigital/addon-boilerplate)
+Generated using [`doublethreedigital/addon-boilerplate`](https://github.com/doublethreedigital/addon-boilerplate)
