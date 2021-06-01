@@ -31,7 +31,7 @@ abstract class TestCase extends OrchestraTestCase
 
         $app->make(Manifest::class)->manifest = [
             'composer-name' => [
-                'id' => 'composername',
+                'id' => 'composer-name',
                 'namespace' => 'DummyVendorNamespace\\DummyAddonNamespace\\',
             ],
         ];

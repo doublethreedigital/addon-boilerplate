@@ -7,7 +7,7 @@ This repository contains the source code for addon-name. addon-name is a commerc
 ## Installation
 
 1. Install via Composer `composer require composer-name`
-2. Publish configuration, assets etc `php artisan vendor:publish --provider="composer-namee"`
+2. Publish configuration, assets etc `php artisan vendor:publish --provider="composer-name"`
 
 ## Documentation
 
@@ -38,3 +38,5 @@ If you discover a security vulnerability within addon-name, please report it [vi
 <a href="https://statamic.com"><img src="https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge" alt="Compatible with Statamic v3"></a>
 <a href="https://packagist.org/packages/composer-name/stats"><img src="https://img.shields.io/packagist/v/composer-name?style=for-the-badge" alt=":addonName on Packagist"></a>
 </p>
+
+[Generated using `doublethreedigital/addon-boilerplate`](https://github.com/doublethreedigital/addon-boilerplate)
