@@ -34,37 +34,28 @@ echo_green "Addon Description"
 read ADDON_DESCRIPTION
 echo ""
 
-# Generate a list of file paths
-FILE_PATHS=()
+# Find & Replace (loop through all files, and find and replace wildcards)
+ROOT_PATHS="./*"
+ROOT2_PATHS="*/*"
 
-for filename in *; do
-    if [ -d $filename ]; then
-        for filename2 in $filename/*; do
-            FILE_PATHS+=("$filename/$filename2")
-        done
-    fi;
-
-    FILE_PATHS+=($filename)
+for FILE_PATH in $ROOT_PATHS
+do
+    if [ -d $FILE_PATH ]; then
+        echo "$FILE_PATH is directory. Skipped."
+    else
+        echo "1 $FILE_PATH"
+        find_and_replace_wildcards $FILE_PATH
+    fi
 done
 
-ADDON_PACKAGE_NAME='simple-commerce'
-
-# Find & Replace (loop through all files, and find and replace wildcards)
-for FILE_PATH in $FILE_PATHS; do
-    echo $FILE_PATH
-    FILE_CONTENT=$(cat $FILE_PATH)
-
-    # Replace any wildcards in FILE_CONTENT
-    FILE_CONTENT=${FILE_CONTENT//vendor-name/$VENDOR_NAME}
-    FILE_CONTENT=${FILE_CONTENT//addon-name/$ADDON_NAME}
-    FILE_CONTENT=${FILE_CONTENT//composer-name/$PACKAGE_NAME}
-    FILE_CONTENT=${FILE_CONTENT//DummyVendorNamespace/$NAMESPACE_VENDOR}
-    FILE_CONTENT=${FILE_CONTENT//DummyAddonNamespace/$NAMESPACE_ADDON}
-    FILE_CONTENT=${FILE_CONTENT//vendor-email/$VENDOR_EMAIL}
-    FILE_CONTENT=${FILE_CONTENT//addon-description/$ADDON_DESCRIPTION}
-
-    # Write back to file
-    echo "$FILE_CONTENT" > $FILE_PATH
+for FILE_PATH in $ROOT2_PATHS
+do
+    if [ -d $FILE_PATH ]; then
+        echo "$FILE_PATH is directory. Skipped."
+    else
+        echo "2 $FILE_PATH"
+        find_and_replace_wildcards $FILE_PATH
+    fi
 done
 
 # Tidy up (move Readme, get rid of script)
