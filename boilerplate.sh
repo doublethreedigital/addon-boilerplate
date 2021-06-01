@@ -110,8 +110,8 @@ do
 done
 
 # Tidy up (move Readme, get rid of script)
-# rm README.md
-# mv README.new.md README.md
+rm README.md
+mv README.new.md README.md
 
 if confirm "Should this script be deleted?"; then
     rm boilerplate.sh
