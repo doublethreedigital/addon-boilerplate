@@ -113,9 +113,15 @@ done
 # rm README.md
 # mv README.new.md README.md
 
-# rm boilerplate.sh
+if confirm "Should this script be deleted?"; then
+    rm boilerplate.sh
+fi
 
-# rm -rf .git
-# git init
-# git add .
-# git commit -m "Initial commit"
+if confirm "Would you like a fresh Git repository to be initialized?"; then
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "Initial commit"
+else
+    rm -rf .git
+fi
