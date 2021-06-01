@@ -1,8 +1,10 @@
 ![Banner](https://raw.githubusercontent.com/composer-name/main/banner.png)
 
-## Addon Boilerplate
+## addon-name
 
-This repository contains the source code for addon-name. addon-name is a commercial addon, to use it in production, you'll need to [purchase a license](https://statamic.com/addon-name).
+This repository contains the source code for addon-name. addon-description
+
+addon-name is a commercial addon, to use it in production, you'll need to [purchase a license](https://statamic.com/addon-name).
 
 ## Installation
 
